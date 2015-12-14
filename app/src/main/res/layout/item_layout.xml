@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="10dp"
+    android:background="#77ffffff">
+
+    <TextView
+        android:id="@+id/lp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="0.2"
+        android:text="1"
+        android:textSize="15sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/winnerIcon"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_gravity="left"
+        android:src="@drawable/cart4"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Szymon Nitecki"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="10"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:paddingRight="10dp"/>
+
+
+</LinearLayout>

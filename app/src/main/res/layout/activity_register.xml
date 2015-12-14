@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="48dp"
+    tools:context="beaconapp.smartschool.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/indexField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Index"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/lastnameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        />
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        />
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:background="?colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
